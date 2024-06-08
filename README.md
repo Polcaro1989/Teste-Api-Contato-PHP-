@@ -23,13 +23,13 @@ A API deve receber parametros de filtro para os campos empresa, nome + sobrenome
 
 O projeto deve ser compatível com PHP 8.
 
-# Modo de uso 
+# Modo de uso:
 
 Você pode testar essa api usando Imsomnia
 
  GET http://localhost:8085/php_rest_api_master-master/api/single_read.php?id=32
 
-# {
+ {
 	"message": "Contato encontrado",
 	"itemCount": 1,
 	"body": {
@@ -47,7 +47,7 @@ Você pode testar essa api usando Imsomnia
 
  POST http://localhost:8085/php_rest_api_master-master/api/create.php
 
-# {
+ {
   "empresa": {
     "nome": "PontoFrio"
   },
@@ -63,7 +63,7 @@ Você pode testar essa api usando Imsomnia
 
 GET http://localhost:8085/php_rest_api_master-master/api/read.php
 
-# {
+ {
 	"message": "Estes são os contatos no banco de dados",
 	"itemCount": 7,
 	"body": [
