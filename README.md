@@ -9,7 +9,7 @@
 # A API deve ser capaz de criar, atualizar, deletar e listar contatos.
 
 
-<img src="https://github.com/abraao69/Api-Contato-PHP/blob/main/testinho/php_rest_api_master-master/screen.jpeg" alt="Logo" width="900" height="700" style="border-radius: 100%;">
+<img src="https://github.com/abraao69/Api-Contato-PHP/blob/main/testinho/php_rest_api_master-master/screen.jpeg" alt="Logo" width="1000" height="400" style="border-radius: 100%;">
 </div>
 <br><br>
 
