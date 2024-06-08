@@ -1,15 +1,15 @@
 
-# Desafio API de contatos
-O projeto de API de contatos é desenvolver uma API de cadastro de contatos. A API deve ser capaz de criar, atualizar, deletar e listar contatos.
+# Desafio API de contatos para uma empresa.
+# O projeto de API de contatos é desenvolver uma API de cadastro de contatos. 
+# A API deve ser capaz de criar, atualizar, deletar e listar contatos.
 
 <div style="display: flex; align-items: center;">
   <img src="https://github.com/abraao69/ApiRestful-teste/blob/main/logo.png" alt="Logo" width="200" height="100">
 <img src="https://github.com/abraao69/abraao69-portfolio-abraao/blob/master/testinho/portfolio/1679067787215.jpeg" alt="Logo" width="70" height="100" style="border-radius: 100%;">
 <br><br>
 <img src="https://github.com/abraao69/Api-Contato-PHP/blob/main/testinho/php_rest_api_master-master/screen.jpeg" alt="Logo" width="900" height="600" style="border-radius: 100%;">
-
-
 </div>
+<br><br>
 
 A API pode ser criada com um framework.
 
@@ -25,7 +25,7 @@ O projeto deve ser compatível com PHP 8.
 
 Você pode testar essa api usando Imsomnia
 
-# GET http://localhost:8085/php_rest_api_master-master/api/single_read.php?id=32
+ GET http://localhost:8085/php_rest_api_master-master/api/single_read.php?id=32
 
 # {
 	"message": "Contato encontrado",
@@ -43,7 +43,7 @@ Você pode testar essa api usando Imsomnia
 	}
 }
 
-# POST http://localhost:8085/php_rest_api_master-master/api/create.php
+ POST http://localhost:8085/php_rest_api_master-master/api/create.php
 
 # {
   "empresa": {
@@ -59,7 +59,7 @@ Você pode testar essa api usando Imsomnia
   }
 }
 
-# GET http://localhost:8085/php_rest_api_master-master/api/read.php
+GET http://localhost:8085/php_rest_api_master-master/api/read.php
 
 # {
 	"message": "Estes são os contatos no banco de dados",
@@ -145,9 +145,9 @@ Você pode testar essa api usando Imsomnia
 	]
 }
 
-# DELETE http://localhost:8085/php_rest_api_master-master/api/delete.php?id=42
+ DELETE http://localhost:8085/php_rest_api_master-master/api/delete.php?id=42
 
-# UPDATE http://localhost:8085/php_rest_api_master-master/api/update.php
+ UPDATE http://localhost:8085/php_rest_api_master-master/api/update.php
 
 {
   "empresa": {
@@ -167,7 +167,7 @@ Você pode testar essa api usando Imsomnia
 }
 
 
-# GET http://localhost:8085/php_rest_api_master-master/api/single_read.php?id=32
+ GET http://localhost:8085/php_rest_api_master-master/api/single_read.php?id=32
 
 {
 	"message": "Contato encontrado",
