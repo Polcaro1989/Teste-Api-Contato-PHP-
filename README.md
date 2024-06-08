@@ -29,7 +29,7 @@ Você pode testar essa api usando Imsomnia
 
  GET http://localhost:8085/php_rest_api_master-master/api/single_read.php?id=32
 
- #{
+ # {
 	"message": "Contato encontrado",
 	"itemCount": 1,
 	"body": {
@@ -47,7 +47,7 @@ Você pode testar essa api usando Imsomnia
 
  POST http://localhost:8085/php_rest_api_master-master/api/create.php
 
- #{
+ # {
   "empresa": {
     "nome": "PontoFrio"
   },
@@ -63,7 +63,7 @@ Você pode testar essa api usando Imsomnia
 
 GET http://localhost:8085/php_rest_api_master-master/api/read.php
 
- #{
+ # {
 	"message": "Estes são os contatos no banco de dados",
 	"itemCount": 7,
 	"body": [
@@ -151,7 +151,7 @@ GET http://localhost:8085/php_rest_api_master-master/api/read.php
 
  UPDATE http://localhost:8085/php_rest_api_master-master/api/update.php
 
-#{
+# {
   "empresa": {
     "id": 95,
     "nome": "Casas pedro"
@@ -171,7 +171,7 @@ GET http://localhost:8085/php_rest_api_master-master/api/read.php
 
  GET http://localhost:8085/php_rest_api_master-master/api/single_read.php?id=32
 
-#{
+# {
 	"message": "Contato encontrado",
 	"itemCount": 1,
 	"body": {
