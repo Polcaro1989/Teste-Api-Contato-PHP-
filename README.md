@@ -25,8 +25,8 @@ O projeto deve ser compatível com PHP 8.
 Você pode testar essa api usando Imsomnia
 
  GET http://localhost:8085/php_rest_api_master-master/api/single_read.php?id=32
-
- # {
+```
+  {
 	"message": "Contato encontrado",
 	"itemCount": 1,
 	"body": {
@@ -41,10 +41,14 @@ Você pode testar essa api usando Imsomnia
 		"nome_empresa": "Casas pedro"
 	}
 }
+```
+```
 
  POST http://localhost:8085/php_rest_api_master-master/api/create.php
+```
+```
 
- # {
+  {
   "empresa": {
     "nome": "PontoFrio"
   },
@@ -57,10 +61,13 @@ Você pode testar essa api usando Imsomnia
     "email": "joao.silva@example.com"
   }
 }
-
+```
+```
 GET http://localhost:8085/php_rest_api_master-master/api/read.php
+```
+```
 
- # {
+  {
 	"message": "Estes são os contatos no banco de dados",
 	"itemCount": 7,
 	"body": [
@@ -143,12 +150,18 @@ GET http://localhost:8085/php_rest_api_master-master/api/read.php
 		}
 	]
 }
+```
+```
 
  DELETE http://localhost:8085/php_rest_api_master-master/api/delete.php?id=42
+```
+```
 
  UPDATE http://localhost:8085/php_rest_api_master-master/api/update.php
+```
+```
 
-# {
+ {
   "empresa": {
     "id": 95,
     "nome": "Casas pedro"
@@ -164,11 +177,15 @@ GET http://localhost:8085/php_rest_api_master-master/api/read.php
     "empresa_id": 95
   }
 }
+```
 
+```
 
  GET http://localhost:8085/php_rest_api_master-master/api/single_read.php?id=32
+```
+```
 
-# {
+ {
 	"message": "Contato encontrado",
 	"itemCount": 1,
 	"body": {
@@ -183,3 +200,4 @@ GET http://localhost:8085/php_rest_api_master-master/api/read.php
 		"nome_empresa": "Casas pedro"
 	}
 }
+```
