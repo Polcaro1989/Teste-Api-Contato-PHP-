@@ -22,7 +22,7 @@ O projeto deve ser compatível com PHP 8.
 
 # Modo de uso:
 
-Você pode testar essa api usando Imsomnia
+Você pode testar essa api usando Imsomnia.
 ```
 
  GET http://localhost:8085/php_rest_api_master-master/api/single_read.php?id=32
