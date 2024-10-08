@@ -1,7 +1,6 @@
 
 <div style="display: flex; align-items: center;">
-<img src="https://github.com/abraao69/abraao69-portfolio-abraao/blob/master/testinho/portfolio/1679067787215.jpeg" alt="Logo" width="70" height="100" style="border-radius: 100%;">
-  <img src="https://github.com/abraao69/ApiRestful-teste/blob/main/logo.png" alt="Logo" width="200" height="100">
+<img src="https://github.com/abraao69/abraao69/blob/main/Navy%20Blue%20Geometric%20Technology%20LinkedIn%20Banner%20(2).png" alt="Logo">
 <br><br>
 
 # Desafio API de contatos para uma empresa.
